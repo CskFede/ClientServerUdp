@@ -23,7 +23,6 @@ public class Client {
         System.out.println("From Server: " + modifiedSentence);
         // Chiusura del socket di invio
         clientSocket.close();
-
         // Creazione del socket di invio multicast
         DatagramSocket multicastSocket = new DatagramSocket();
         // Indirizzo IP del gruppo multicast
